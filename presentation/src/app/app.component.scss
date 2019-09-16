@@ -1,0 +1,23 @@
+.full-width-row {
+  overflow-x: hidden;
+}
+.image {
+  min-height: 200px;
+  max-height: 300px;
+  width: 100%;
+}
+.label {
+  background-image: linear-gradient(rgba(8, 0, 255, 0.45),blue, blue, blue, rgba(255, 255, 255, 0.33));
+  min-height: 90px;
+  color: white;
+  width: 100%;
+  padding-right: -15;
+  margin-right: -15;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.logo {
+  max-height: 50px;
+  vertical-align: middle;
+}
+

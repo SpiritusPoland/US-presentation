@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto flex-column">
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="">Strona Główna<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown dropright " routerLinkActive="active">
+        <a class="nav-link dropdown-toggle" href="#" id="employeeDropdown" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false"> Pracownicy </a>
+        <ul class="dropdown-menu" aria-labelledby="employeeDropdown">
+          <li class="dropdown-item"  *ngFor="let empl of items" routerLink="{{empl.routerLink}}">{{empl.label}}</li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Akademia CISCO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ZSK wirtualny spacer</a>
+      </li>
+      <li class="nav-item dropdown dropright " routerLinkActive="active">
+        <a class="nav-link dropdown-toggle" href="#" id="studiesDropdown" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false"> Studia Podyplomowe </a>
+        <ul class="dropdown-menu" aria-labelledby="studiesDropdown">
+          <li class="dropdown-item" *ngFor="let study of studies">{{study.label}}</li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/gallery">Galeria fotografii</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://el.us.edu.pl/wiinom/">MOODLE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://zsk.ii.us.edu.pl/ankieta/index.php/survey/index/sid/168292/lang/pl">Ankieta dla studentów</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>

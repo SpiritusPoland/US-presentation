@@ -1,0 +1,39 @@
+
+:host {
+  width: 100%;
+  background: darkgreen;
+}
+
+.image {
+  min-height: 200px;
+  max-height: 300px;
+  width: 100%;
+}
+
+.label {
+  padding-top: 35px;
+  background-image: linear-gradient(rgba(8, 0, 255, 0.45),blue, blue, blue, rgba(255, 255, 255, 0.33));
+  min-height: 100px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+.center-vertically {
+margin: 0 auto
+}
+
+.logo {
+  margin-top: -10px;
+  max-height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-padding{
+  padding-right:0;
+  padding-left:0;}
+
+

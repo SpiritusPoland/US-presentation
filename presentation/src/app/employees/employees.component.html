@@ -1,0 +1,79 @@
+<div class="card ">
+  <div class="card-header card-">{{employee.name}}</div>
+
+  <img *ngIf="employee.imgPath != ''" alt="photo" class="image card-img-top" src="{{employee.imgPath}}">
+  <div class="card-margin">
+
+    <div class="row">
+      <div class="offset-2 col-md-4">
+        <h4>Stanowisko:</h4>
+      </div>
+      <div class="col-md-4 ">
+        <h5 class="m-sm-auto">{{employee.position}}</h5>
+      </div>
+    </div>
+    <hr class="style"/>
+
+
+    <div class="row">
+      <div class="offset-2 col-md-4">
+        <h4>Telefon:</h4>
+      </div>
+      <div class=" col-md-4">
+        <h5>{{employee.phone}}</h5>
+      </div>
+    </div>
+    <hr class="style"/>
+
+    <div class="row">
+      <div class="offset-2 col-md-4">
+        <h4>Pokój:</h4>
+      </div>
+      <div class=" col-md-4">
+        <h5>{{employee.room}}</h5>
+      </div>
+    </div>
+    <hr class="style"/>
+
+    <div class="row">
+      <div class="offset-2 col-md-4">
+        <h4>Adres email::</h4>
+      </div>
+      <div class=" col-md-4">
+        <h5><a href="mailto:{{employee.email}}">{{employee.email}}</a></h5>
+      </div>
+    </div>
+    <hr class="style"/>
+
+    <div class="row">
+      <div class="offset-2 col-md-4">
+        <h4>Konsultacje:</h4>
+      </div>
+      <div class=" col-4">
+        <h5>{{employee.consultations}}</h5>
+      </div>
+    </div>
+    <hr class="style"/>
+
+    <div class="row">
+      <div class="offset-2 col-md-4">
+        <h4>Wydział:</h4>
+      </div>
+      <div class=" col-4">
+        <h5>{{employee.department}}</h5>
+      </div>
+    </div>
+    <hr class="style"/>
+
+    <div class="row">
+      <div class="offset-2 col-md-4">
+        <h4>Staż pracy w latach:</h4>
+      </div>
+      <div class=" col-md-4">
+        <h5>{{employee.seniority}}</h5>
+      </div>
+    </div>
+
+  </div>
+</div>
+
