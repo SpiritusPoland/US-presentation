@@ -26,11 +26,19 @@
   display: block;
 }
 
+
+
 hr.style {
   margin-left: 10%;
   margin-right: 10%;
 }
-
-.property {
-
+@media (min-width: 400px) {
+  .text-justify-sm{
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .text-justify-md{
+    text-align: left;
+  }
 }

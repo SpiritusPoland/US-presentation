@@ -53,40 +53,40 @@ export class GalleryComponent implements OnInit {
         id: 'klaster',
         items: [
           {
-            photoUrl: 'assets/images/klaster/1klaster.jpg'
+            photoUrl: 'assets/images/klaster/1.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/2klaster.jpg'
+            photoUrl: 'assets/images/klaster/2.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/3klaster.jpg'
+            photoUrl: 'assets/images/klaster/3.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/4klaster.jpg'
+            photoUrl: 'assets/images/klaster/4.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/5klaster.jpg'
+            photoUrl: 'assets/images/klaster/5.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/6klaster.jpg'
+            photoUrl: 'assets/images/klaster/6.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/7klaster.jpg'
+            photoUrl: 'assets/images/klaster/7.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/8klaster.jpg'
+            photoUrl: 'assets/images/klaster/8.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/9klaster.jpg'
+            photoUrl: 'assets/images/klaster/9.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/10klaster.jpg'
+            photoUrl: 'assets/images/klaster/10.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/11klaster.jpg'
+            photoUrl: 'assets/images/klaster/11.jpg'
           },
           {
-            photoUrl: 'assets/images/klaster/12klaster.jpg'
+            photoUrl: 'assets/images/klaster/12.jpg'
           }
         ]
       },
