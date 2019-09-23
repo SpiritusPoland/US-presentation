@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {Employee} from '../employee';
 
@@ -154,11 +154,13 @@ export class EmployeesComponent implements OnInit {
   ngOnInit() {
 
     this.route.params.subscribe(routeParams => {
-      this.employee = this.employees.find(emp => emp.id === routeParams.id);
+      let empl = this.employees.find(emp => emp.id === routeParams.id);
+      empl.seniority += (new Date()).getFullYear() - 2019;
+      console.log((new Date()).getFullYear());
+      this.employee = empl;
     });
     console.log(JSON.stringify(this.employee));
   }
-
 
 }
 
